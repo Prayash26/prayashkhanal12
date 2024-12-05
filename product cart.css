@@ -1,0 +1,84 @@
+.cart{
+    display:flex;
+    height: 400px;
+    width:200px;
+    border:1px solid black;
+    flex-direction:column;
+    justify-content:start;
+    align-items: center; 
+    margin:2%;
+    
+}
+
+.ig{
+    gap:10%;
+    width: 150px;
+    height: 150px;
+}
+
+.box1{
+    background-color: aqua;
+    width:100%;
+    height:200%;
+    text-align: center;
+    
+    
+}
+
+.shoes{
+    display:flex;
+    height: 400px;
+    width:200px;
+    border:2px solid black;
+    flex-direction:column;
+    justify-content:start;
+    align-items: center;
+   margin:2%;
+    
+}
+
+.ig{
+    gap:10%;
+    width: 150px;
+    height: 150px;
+}
+
+.box2{
+    background-color: orangered;
+    width:100%;
+    height:200%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.shirt{
+    display:flex;
+    height: 400px;
+    width:200px;
+    border:2px solid black;
+    flex-direction:column;
+    justify-content:start;
+    align-items: center;
+    margin:2%;
+    gap:1%
+
+}
+
+.ig{
+    gap:10%;
+    width: 150px;
+    height: 200px;
+
+}
+
+.box3{
+    background-color:yellowgreen;
+    width:100%;
+    height:100%;
+    text-align: center;
+    padding-top:10%;
+}
+
+.main-div{
+    display: flex;
+}

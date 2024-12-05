@@ -1,0 +1,105 @@
+.container{
+    width:50%;
+    margin-inline: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    
+}
+
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+a{
+    text-decoration: none;
+}
+
+.para{
+    margin-top: 5rem;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    font-family: "calibri";
+    
+}
+
+.innav{
+margin-inline: 10px;
+margin-top: 30px;
+}
+
+.icon{
+margin-right: auto;
+color:black;
+
+}
+
+.icon_about{
+    margin-inline: 1rem;
+    margin-top: 30px;
+}
+
+.icon_now{
+    margin-inline: 1rem; 
+    margin-top: 30px; 
+}
+
+.icon_contact{
+    margin-inline: 1rem; 
+    margin-top: 30px; 
+}
+
+.main_article{
+   font-size: 20 rem;
+   text-align: center;
+   margin:10px;
+   line-height: 2.5rem;
+  
+}
+
+
+hr{
+    height: 2px;
+    background-color: grey;
+    width:95%;
+}
+
+.projects{
+    margin-right: auto;
+    margin: 1rem;
+    }
+    
+    .inner-pro{
+        display:flex;
+        flex-direction: coloumn;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    .Notes{
+        color: black; 
+    }
+    
+    .Contact{
+        color: black; 
+    }
+    
+    .Copyright{
+        color: black; 
+    }
+    
+    .go{
+        margin-right: auto;
+        margin: 0.5em;
+     }

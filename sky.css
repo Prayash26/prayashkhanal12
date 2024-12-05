@@ -1,0 +1,87 @@
+.container{
+    width:50%;
+    margin-inline: auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+.para{
+    margin-top: 5rem;
+    justify-content: center;
+    padding: 100px;
+
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+nav{
+    display: flex center;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: "calibri";
+    
+}
+
+.innav{
+margin-inline: 100px;
+margin-top: 30px;
+padding:30px;
+
+}
+
+.icon{
+margin-right: auto;
+color:black;
+
+}
+
+.icon_about{
+    margin-inline: 1rem;
+    margin-top: 30px;
+}
+
+.icon_now{
+    margin-inline: 1rem; 
+    margin-top: 30px; 
+}
+
+.icon_contact{
+    margin-inline: 1rem; 
+    margin-top: 30px; 
+}
+
+.main_article{
+   font-size: 20 rem;
+   text-align: center;
+   margin:10px;
+   line-height: 2.5rem;
+  
+}
+
+
+hr{
+    height: 5px;
+    background-color: grey;
+
+}
+.notes{
+    margin-top: 3%;
+    background-color: black;
+    justify-content: center;
+    padding: px;
+}

@@ -1,0 +1,47 @@
+.grid-container {
+    display: grid;
+    height:1vh;
+    grid-template-columns: repeat(5,100px);
+    grid-template-rows: repeat(4,100px);
+    grid-gap: 10px;
+    grid-template-areas:
+    "P P R R R"
+    "P P Y Y A"
+    "H H Y Y N"
+
+
+
+}
+
+.box1{
+    background-color: red;
+    border-radius: 5px;
+    grid-area:P;
+}
+.box2{
+    background-color: greenyellow;
+    border-radius: 5px;
+    grid-area:R;
+    
+}
+
+.box3{
+    background-color: yellow;
+    border-radius: 5px;
+    grid-area:A;
+}
+.box4{
+        background-color: rgb(0, 13, 255);
+        border-radius: 5px;
+        grid-area:Y;
+}
+.box5{
+    background-color: lightcoral;
+    border-radius: 5px;
+    grid-area:H;
+}
+.box6{
+    background-color: burlywood;
+    border-radius: 5px;
+    grid-area:N;
+}
